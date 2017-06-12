@@ -87,7 +87,7 @@ namespace VoiceSubtitle
                 Task.Factory.StartNew(UpdateVoice, voice);
             }
 
-            for (int ShipID = 1; ShipID <= 500; ShipID++)
+            for (int ShipID = 1; ShipID <= 1000; ShipID++)
             {
                 voiceMap[ShipID] = new Dictionary<int, int>();
                 for (int i = 1; i < voiceKey.Length; i++)
